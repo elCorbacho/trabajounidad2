@@ -1,0 +1,53 @@
+/* IMAGEN DE FONDO */
+body {
+    background-image: url(/assets/img/wavy-black-white-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #464646;
+
+}
+
+#im {
+    border-radius: 1em;
+}
+
+#icons a:hover img{
+    opacity: .2;
+    transition: all .75s;
+    -webkit-transition: all .75s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al hacer hover */
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+/* Estilo para el efecto click */
+.social-icon:active {
+    transform: scale(0.9); /* Reduce el tamaño al hacer click */
+}
+
+#texto_portada {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+
+.ubuntu-sans {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 251;
+  font-style: normal;
+  font-variation-settings: "wdth" 86.3;
+}
+
+.ubuntu-sans-b {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 732;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 86.3;
+  }
